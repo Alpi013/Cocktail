@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeinCocktail.de</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>MeinCocktail.de</h1>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" class="search-box" placeholder="Nach Cocktails suchen...">
+        <button id="searchButton" class="search-button">Suchen</button>
+    </div>
+    <div id="searchResults" class="search-results"></div>
+    <div id="age-popup" class="popup">
+        <p>Bist du schon 18 Jahre alt?</p>
+        <button onclick="handleYes()">Ja</button>
+        <button onclick="handleNo()">Nein</button>
+    </div>
+    <div id="overlay" class="overlay"></div>
+    <script src="script.js"></script>
+
+</body>
+</html>
