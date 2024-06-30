@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkliste für Cocktailabende</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class="bx bx-menu sidebarOpen"></i>
+            <span class="logo navLogo"><a href="#">Mein Cocktail</a></span>
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Mein Cocktail</a></span>
+                    <i class="bx bx-x sidebarClose"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="suche.html">Cocktail Suche</a></li>
+                    <li><a href="umwelt.html">Umwelt</a></li>
+                    <li><a href="checklist.html">Checkliste</a></li>  
+                </ul>
+            </div>
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class="bx bx-moon moon"></i>
+                    <i class="bx bx-sun sun"></i>
+                </div>
+                <div class="searchBox">
+                    <div class="searchToggle">
+                        <i class="bx bx-search search"></i>
+                        <i class="bx bx-x cancel"></i>
+                    </div>
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class="bx bx-search"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="checklist-container">
+        <h1>Checkliste für Cocktailabende</h1>
+        <ul class="checklist">
+            <li><input type="checkbox" id="cocktail-zutaten"><label for="cocktail-zutaten"> Cocktailzutaten besorgen</label></li>
+            <li><input type="checkbox" id="eis"><label for="eis"> Genügend Eis vorbereiten</label></li>
+            <li><input type="checkbox" id="gläser"><label for="gläser"> Cocktailgläser bereitstellen</label></li>
+            <li><input type="checkbox" id="shaker"><label for="shaker"> Cocktailshaker und Zubehör bereithalten</label></li>
+            <li><input type="checkbox" id="dekoration"><label for="dekoration"> Dekoration und Garnierungen besorgen</label></li>
+            <li><input type="checkbox" id="musik"><label for="musik"> Playlist für den Abend erstellen</label></li>
+            <li><input type="checkbox" id="snacks"><label for="snacks"> Snacks und Fingerfood vorbereiten</label></li>
+            <li><input type="checkbox" id="spiele"><label for="spiele"> Spiele und Unterhaltung planen</label></li>
+            <li><input type="checkbox" id="saubere-umgebung"><label for="saubere-umgebung"> Saubere Umgebung und genügend Sitzplätze schaffen</label></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
